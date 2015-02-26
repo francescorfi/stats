@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A site to analyze athlete's performance on Strava">
+	<title>Strava stats</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="functions.js"></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<figure class="logo">
+			<img src="logo.png" alt="Strava stats">
+		</figure>
+		<nav class="menu">
+			<ul class="menuList">
+				<li class="menuItem">
+					<a href="#">Saved athletes</a>
+				</li>
+				<li class="menuItem">
+					<a href="#">My activities</a>
+				</li>
+				<li class="menuItem">
+					<a href="#">Settings</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div class="newAthlete">
+		<form action="" method="post">
+			<input type="text" id="username" placeholder="Athlete's username" required>
+			<input type="submit" id="addAthlete" value="Compare">
+		</form>
+	</div>
+	<section>
+		<article class="athleteInfo">
+			<figure class="avatar">
+				<img src="" alt="">
+			</figure>
+			<div class="athleteData">
+				<h2 class="athleteName"></h2>
+				<p class="athleteFeature"><span class="label"></span></p>
+			</div>
+		</article>
+	</section>
+	<footer>
+		<p class="powered">Powered by ingenios.es</p>
+	</footer>
+</body>
+</html>
